@@ -1,0 +1,8 @@
+{
+  "name": "App review bot",
+  "description": "A barebones Node.js app for posting play store reviews to slack",
+  "repository": "",
+  "logo": "",
+  "keywords": [],
+  "image": "heroku/nodejs"
+}

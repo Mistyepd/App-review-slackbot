@@ -1,0 +1,23 @@
+{
+  "name": "App-review-slackbot",
+  "version": "0.0.1",
+  "description": "A barebones Node.js app for posting play store reviews to slack",
+  "engines": {
+    "node": "6.10.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "reviews-to-slack": "2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mistyepd/App-review-slackbot"
+  },
+  "keywords": [
+    "node"
+  ],
+  "license": "MIT"
+}

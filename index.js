@@ -20,6 +20,9 @@ var apps = [
 },
 {
 	appId:'nz.org.policeassn.nzpa'
+},
+{
+	appId:'com.facebook.katana'
 }
 ]
 

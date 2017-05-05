@@ -20,18 +20,15 @@ var apps = [
 },
 {
 	appId:'nz.org.policeassn.nzpa'
-},
-{
-	appId:'com.facebook.katana'
 }
 ]
 
 for (var i = 0; i < apps.length; i++) {
   var app = apps[i]
   reviews.start({
-    slackHook: 'https://hooks.slack.com/services/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',
+    slackHook: 'https://hooks.slack.com/services/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',
     appId: app.appId,
-    channel: '@kate',
+    channel: '#app-reviews',
     debug: false,
     interval: 60
   })

@@ -1,25 +1,32 @@
 var reviews = require('reviews-to-slack')
 var apps = [
 {
-	appId:'com.bp.bpmenz'
+	appId:'com.bp.bpmenz',
+	appName: 'BPMe NZ'
 },
 {
-	appId:'nz.org.asthmafoundation.asthma'
+	appId:'nz.org.asthmafoundation.asthma',
+	appName: 'My Asthma'
 },
 {
-	appId:'nz.co.cca.vendswift'
+	appId:'nz.co.cca.vendswift',
+	appName: 'VendSwift'
 },
 {
-	appId:'com.bp.bpmeau'
+	appId:'com.bp.bpmeau',
+	appName: 'BPMe AU'
 },
 {
-	appId:'com.firststarcommunications.ampmscratchpower.android'
+	appId:'com.firststarcommunications.ampmscratchpower.android',
+	appName: 'AMPM ScratchPower'
 },
 {
-	appId:'com.randstad.timesheets'
+	appId:'com.randstad.timesheets',
+	appName: 'Randstad Timesheets '
 },
 {
-	appId:'nz.org.policeassn.nzpa'
+	appId:'nz.org.policeassn.nzpa',
+	appName: 'NZPA'
 }
 ]
 
@@ -30,6 +37,7 @@ for (var i = 0; i < apps.length; i++) {
     appId: app.appId,
     channel: '#app-reviews',
     debug: false,
-    interval: 60
+    interval: 60,
+    appName: app.appName
   })
 }

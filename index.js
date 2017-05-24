@@ -27,6 +27,10 @@ var apps = [
 	{
 		appId:'nz.org.policeassn.nzpa',
 		appName: 'NZPA'
+	},
+	{
+		appId:'com.app.allblacks2014',
+		appName: 'All Blacks'
 	}
 ]
 

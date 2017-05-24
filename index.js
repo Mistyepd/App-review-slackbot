@@ -41,7 +41,7 @@ for (var i = 0; i < apps.length; i++) {
 		appId: app.appId,
 		channel: '#app-reviews',
 		debug: false,
-		interval: 60,
+		interval: 300,
 		appName: app.appName
 	})
 }

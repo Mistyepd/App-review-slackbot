@@ -40,7 +40,7 @@ for (var i = 0; i < apps.length; i++) {
 		slackHook: 'https://hooks.slack.com/services/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',
 		appId: app.appId,
 		channel: '#app-reviews',
-		debug: true,
+		debug: false,
 		interval: 300,
 		appName: app.appName
 	})

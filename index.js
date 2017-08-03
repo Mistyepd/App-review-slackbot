@@ -29,8 +29,8 @@ var apps = [
 		appName: 'NZPA'
 	},
 	{
-		appId:'com.app.allblacks2014',
-		appName: 'All Blacks'
+		appId:'nz.co.paperkite.beervana',
+		appName: 'Beervana'
 	}
 ]
 

@@ -31,6 +31,42 @@ var apps = [
 	{
 		appId:'nz.co.paperkite.beervana',
 		appName: 'Beervana'
+	},
+	{
+		appId:'1116524739',
+		appName: 'BPMe NZ'
+	},
+	{
+		appId:'1231326408',
+		appName: 'My Asthma'
+	},
+	{
+		appId:'1132394222',
+		appName: 'BPMe AU'
+	},
+	{
+		appId:'564049196',
+		appName: 'AMPM ScratchPower'
+	},
+	{
+		appId:'785021889',
+		appName: 'Randstad Timesheets '
+	},
+	{
+		appId:'932094923',
+		appName: 'NZPA'
+	},
+	{
+		appId:'1265690792',
+		appName: 'Beervana'
+	},
+	{
+		appId:'460256659',
+		appName: 'Hell'
+	},
+	{
+		appId:'1119044123',
+		appName: 'Rydges'
 	}
 ]
 

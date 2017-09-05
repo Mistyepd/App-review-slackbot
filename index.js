@@ -2,82 +2,118 @@ var reviews = require('reviews-to-slack')
 var apps = [
 	{
 		appId:'com.bp.bpmenz',
-		appName: 'BPMe NZ'
+		appName: 'BPMe NZ',
+		store: 'google-play',
+		region: 'en'
 	},
 	{
 		appId:'nz.org.asthmafoundation.asthma',
-		appName: 'My Asthma'
+		appName: 'My Asthma',
+		store: 'google-play',
+		region: 'en'
 	},
 	{
 		appId:'nz.co.cca.vendswift',
-		appName: 'VendSwift'
+		appName: 'VendSwift',
+		store: 'google-play',
+		region: 'en'
 	},
 	{
 		appId:'com.bp.bpmeau',
-		appName: 'BPMe AU'
+		appName: 'BPMe AU',
+		store: 'google-play',
+		region: 'en'
 	},
 	{
 		appId:'com.firststarcommunications.ampmscratchpower.android',
-		appName: 'AMPM ScratchPower'
+		appName: 'AMPM ScratchPower',
+		store: 'google-play',
+		region: 'en'
 	},
 	{
 		appId:'com.randstad.timesheets',
-		appName: 'Randstad Timesheets '
+		appName: 'Randstad Timesheets',
+		store: 'google-play',
+		region: 'en'
 	},
 	{
 		appId:'nz.org.policeassn.nzpa',
-		appName: 'NZPA'
+		appName: 'NZPA',
+		store: 'google-play',
+		region: 'en'
 	},
 	{
 		appId:'nz.co.paperkite.beervana',
-		appName: 'Beervana'
+		appName: 'Beervana',
+		store: 'google-play',
+		region: 'nz'
 	},
 	{
 		appId:'1116524739',
-		appName: 'BPMe NZ'
+		appName: 'BPMe NZ',
+		store: 'app-store',
+		region: 'nz'
 	},
 	{
 		appId:'1231326408',
-		appName: 'My Asthma'
+		appName: 'My Asthma',
+		store: 'app-store',
+		region: 'nz'
 	},
 	{
 		appId:'1132394222',
-		appName: 'BPMe AU'
+		appName: 'BPMe AU',
+		store: 'app-store',
+		region: 'au'
 	},
 	{
 		appId:'564049196',
-		appName: 'AMPM ScratchPower'
+		appName: 'AMPM ScratchPower',
+		store: 'app-store',
+		region: 'us'
 	},
 	{
 		appId:'785021889',
-		appName: 'Randstad Timesheets '
+		appName: 'Randstad Timesheets',
+		store: 'app-store',
+		region: 'au'
 	},
 	{
 		appId:'932094923',
-		appName: 'NZPA'
+		appName: 'NZPA',
+		store: 'app-store',
+		region: 'nz'
 	},
 	{
 		appId:'1265690792',
-		appName: 'Beervana'
+		appName: 'Beervana',
+		store: 'app-store',
+		region: 'nz'
 	},
 	{
 		appId:'460256659',
-		appName: 'Hell'
+		appName: 'Hell',
+		store: 'app-store',
+		region: 'nz'
 	},
 	{
 		appId:'1119044123',
-		appName: 'Rydges'
+		appName: 'Rydges',
+		store: 'app-store',
+		region: 'nz'
 	}
 ]
 
 for (var i = 0; i < apps.length; i++) {
 	var app = apps[i]
 	reviews.start({
-		slackHook: 'https://hooks.slack.com/services/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',
+		slackHook: 'https://hooks.slack.com/services/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',
 		appId: app.appId,
-		channel: '#app-reviews',
-		debug: false,
-		interval: 300,
-		appName: app.appName
+		channel: '#testing-ground',
+		debug: true,
+		interval: 60,
+		appName: app.appName,
+		store: app.store,
+		region: app.region
 	})
 }

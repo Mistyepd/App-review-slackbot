@@ -102,11 +102,11 @@ for (var i = 0; i < apps.length; i++) {
 	var app = apps[i]
 	for (region of app.regions) {
 		reviews.start({
-			slackHook: 'https://hooks.slack.com/services/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',
+			slackHook: 'https://hooks.slack.com/services/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',
 			appId: app.appId,
 			channel: '#app-reviews',
 			debug: false,
-			interval: 60,
+			interval: 300,
 			appName: app.appName,
 			store: app.store,
 			region: region

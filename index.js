@@ -13,12 +13,6 @@ var apps = [
 		region: 'en'
 	},
 	{
-		appId:'nz.co.cca.vendswift',
-		appName: 'VendSwift',
-		store: 'google-play',
-		region: 'en'
-	},
-	{
 		appId:'com.bp.bpmeau',
 		appName: 'BPMe AU',
 		store: 'google-play',

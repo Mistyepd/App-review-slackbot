@@ -104,7 +104,7 @@ for (var i = 0; i < apps.length; i++) {
 		reviews.start({
 			slackHook: 'https://hooks.slack.com/services/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',
 			appId: app.appId,
-			channel: '#testing-ground',
+			channel: '#app-reviews',
 			debug: true,
 			interval: 60,
 			appName: app.appName,

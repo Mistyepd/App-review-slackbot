@@ -19,12 +19,6 @@ var apps = [
 		regions: ['en']
 	},
 	{
-		appId:'com.firststarcommunications.ampmscratchpower.android',
-		appName: 'AMPM ScratchPower',
-		store: 'google-play',
-		regions: ['en']
-	},
-	{
 		appId:'com.randstad.timesheets',
 		appName: 'Randstad Timesheets',
 		store: 'google-play',
@@ -40,6 +34,18 @@ var apps = [
 		appId:'nz.co.paperkite.beervana',
 		appName: 'Beervana',
 		store: 'google-play',
+		regions: ['nz']
+	},
+	{
+		appId:'com.clubsnz.clublocator2',
+		appName: 'Clubs NZ',
+		store: 'google-play',
+		regions: ['nz']
+	},
+	{
+		appId:'1351104504',
+		appName: 'Clubs NZ',
+		store: 'app-store',
 		regions: ['nz']
 	},
 	{
@@ -59,12 +65,6 @@ var apps = [
 		appName: 'BPMe AU',
 		store: 'app-store',
 		regions: ['au']
-	},
-	{
-		appId:'564049196',
-		appName: 'AMPM ScratchPower',
-		store: 'app-store',
-		regions: ['us']
 	},
 	{
 		appId:'785021889',

@@ -7,10 +7,10 @@ var apps = [
 		regions: ['en']
 	},
 	{
-		appId:'nz.org.asthmafoundation.asthma',
-		appName: 'My Asthma',
-		store: 'google-play',
-		regions: ['en']
+		appId:'1116524739',
+		appName: 'BPMe NZ',
+		store: 'app-store',
+		regions: ['nz']
 	},
 	{
 		appId:'com.bp.bpmeau',
@@ -19,22 +19,10 @@ var apps = [
 		regions: ['en']
 	},
 	{
-		appId:'com.randstad.timesheets',
-		appName: 'Randstad Timesheets',
-		store: 'google-play',
-		regions: ['en']
-	},
-	{
-		appId:'nz.org.policeassn.nzpa',
-		appName: 'NZPA',
-		store: 'google-play',
-		regions: ['en']
-	},
-	{
-		appId:'nz.co.paperkite.beervana',
-		appName: 'Beervana',
-		store: 'google-play',
-		regions: ['nz']
+		appId:'1132394222',
+		appName: 'BPMe AU',
+		store: 'app-store',
+		regions: ['au']
 	},
 	{
 		appId:'com.clubsnz.clublocator2',
@@ -49,10 +37,10 @@ var apps = [
 		regions: ['nz']
 	},
 	{
-		appId:'1116524739',
-		appName: 'BPMe NZ',
-		store: 'app-store',
-		regions: ['nz']
+		appId:'nz.org.asthmafoundation.asthma',
+		appName: 'My Asthma',
+		store: 'google-play',
+		regions: ['en']
 	},
 	{
 		appId:'1231326408',
@@ -61,10 +49,10 @@ var apps = [
 		regions: ['nz']
 	},
 	{
-		appId:'1132394222',
-		appName: 'BPMe AU',
-		store: 'app-store',
-		regions: ['au']
+		appId:'com.randstad.timesheets',
+		appName: 'Randstad Timesheets',
+		store: 'google-play',
+		regions: ['en']
 	},
 	{
 		appId:'785021889',
@@ -73,9 +61,21 @@ var apps = [
 		regions: ['au', 'nz']
 	},
 	{
+		appId:'nz.org.policeassn.nzpa',
+		appName: 'NZPA',
+		store: 'google-play',
+		regions: ['en']
+	},
+	{
 		appId:'932094923',
 		appName: 'NZPA',
 		store: 'app-store',
+		regions: ['nz']
+	},
+	{
+		appId:'nz.co.paperkite.beervana',
+		appName: 'Beervana',
+		store: 'google-play',
 		regions: ['nz']
 	},
 	{
@@ -109,6 +109,12 @@ var apps = [
 		regions: ['en']
 	},
 	{
+		appId:'700586133',
+		appName: 'UN Handbook',
+		store: 'app-store',
+		regions: ['nz']
+	},
+	{
 		appId:'nz.co.countdown.android.pickup',
 		appName: 'Countdown Pick up',
 		store: 'google-play',
@@ -117,12 +123,6 @@ var apps = [
 	{
 		appId:'1278164689',
 		appName: 'Countdown Pick up',
-		store: 'app-store',
-		regions: ['nz']
-	},
-	{
-		appId:'700586133',
-		appName: 'UN Handbook',
 		store: 'app-store',
 		regions: ['nz']
 	}

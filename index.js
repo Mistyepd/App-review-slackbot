@@ -40,7 +40,7 @@ var apps = [
 		appId:'com.clubsnz.clublocator2',
 		appName: 'Clubs NZ',
 		store: 'google-play',
-		regions: ['nz']
+		regions: ['en']
 	},
 	{
 		appId:'1351104504',
@@ -93,6 +93,36 @@ var apps = [
 	{
 		appId:'1119044123',
 		appName: 'Rydges',
+		store: 'app-store',
+		regions: ['nz']
+	},
+	{
+		appId:'com.posbosshq.regular',
+		appName: 'Regulr',
+		store: 'google-play',
+		regions: ['en']
+	},
+	{
+		appId:'govt.nz.mfat.UNHandbook',
+		appName: 'UN Handbook',
+		store: 'google-play',
+		regions: ['en']
+	},
+	{
+		appId:'nz.co.countdown.android.pickup',
+		appName: 'Countdown Pick up',
+		store: 'google-play',
+		regions: ['en']
+	},
+	{
+		appId:'1278164689',
+		appName: 'Countdown Pick up',
+		store: 'app-store',
+		regions: ['nz']
+	},
+	{
+		appId:'700586133',
+		appName: 'UN Handbook',
 		store: 'app-store',
 		regions: ['nz']
 	}

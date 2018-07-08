@@ -91,6 +91,12 @@ var apps = [
 		regions: ['nz']
 	},
 	{
+		appId:'nz.co.hellpizza.order',
+		appName: 'Hell',
+		store: 'google-play',
+		regions: ['nz']
+	},
+	{
 		appId:'1119044123',
 		appName: 'Rydges',
 		store: 'app-store',
